@@ -1,0 +1,17 @@
+﻿.vs/
+.vscode/
+
+# Thong tin dang nhap va cau hinh rieng
+.env
+.env.*
+!.env.example
+account_login.txt
+
+# File tam va log
+/storage/logs/
+/storage/cache/
+/storage/sessions/
+
+# File he thong
+Thumbs.db
+.DS_Store

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6fff4" />
+      <stop offset="1" stop-color="#f1f9f5" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" />
+  <g transform="translate(120,120)">
+    <rect x="0" y="0" width="560" height="560" rx="28" fill="#fff" opacity="0.9" />
+    <g transform="translate(56,56)">
+      <circle cx="168" cy="168" r="140" fill="#f3faf6" stroke="#d9f0e6" stroke-width="3" />
+      <path d="M60 320c40-60 120-80 208-60s148 80 196 60" fill="#e9fff4" stroke="#cfeee0" stroke-width="3"/>
+      <text x="50%" y="520" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="44" font-weight="800" fill="#0f172a" text-anchor="middle">Aethera Supply</text>
+      <text x="50%" y="566" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" font-weight="700" fill="#64748b" text-anchor="middle">Nông sản sạch - Truy xuất nguồn gốc</text>
+    </g>
+  </g>
+</svg>
