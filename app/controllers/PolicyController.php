@@ -6,7 +6,7 @@ class PolicyController
 
     private array $policies = [
         'shipping' => [
-            'title' => 'Chính sách vận chuyển',
+            'title' => 'Chính sách c ccccccc vận chuyển',
             'icon' => 'fa-truck-fast',
             'summary' => 'Quy định giao hàng nội địa, quốc tế, phí vận chuyển và theo dõi hành trình.',
             'sections' => [
