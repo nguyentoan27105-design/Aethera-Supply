@@ -1030,3 +1030,21 @@ DELIMITER ;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2026-06-06  2:28:25
+
+-- AETHERA SUPPLY: TAI KHOAN ADMIN DEMO
+-- Username: admin
+-- Password: 1 (chi dung cho do an local)
+
+INSERT INTO `account`
+    (`username`, `fullname`, `password`, `email`, `role`, `status`, `verified_at`)
+VALUES
+    ('admin', 'Admin Demo',
+     '$2y$12$LDevzzeSGlNN9h8aYbfvfuwBdyB5JTe9uH6fHCoIEQkFqUjkXtkQa',
+     NULL, 'admin', 1, NOW())
+ON DUPLICATE KEY UPDATE
+    `fullname` = 'Admin Demo',
+    `password` = '$2y$12$LDevzzeSGlNN9h8aYbfvfuwBdyB5JTe9uH6fHCoIEQkFqUjkXtkQa',
+    `email` = NULL,
+    `role` = 'admin',
+    `status` = 1,
+    `verified_at` = NOW();
